@@ -9,9 +9,31 @@
 body{
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
+    margin-bottom: 70px;
 }
 
+main{
+    margin: 40px 130px;
+}
 
+h3{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* padding-right: 100px; */
+
+}
+
+p{
+    font-size: 10px;
+    line-height: 1.5;
+}
 
 button{
     font-size: 14px;
@@ -23,14 +45,13 @@ button{
     
 }
 
-p{
-    font-size: 10px;
-    line-height: 1.5;
-}
-
 .text-center{
     text-align: center;
 }
+
+
+
+
 /* header styles */
 
 .navigation{
@@ -83,3 +104,55 @@ p{
     background-color: #0D1321;
 }
 
+
+/* Why Development styles */
+
+.development-section{
+    background-color: #edf1f7;
+}
+
+.developers-main{
+    margin-bottom: 14px;
+}
+
+.development-container{
+    padding: 10px 90px;
+}
+
+.developer-section-1{
+    background-image: linear-gradient(to right, #fff, #edf1f7);
+    
+}
+.developer-section-2{
+    background-image: linear-gradient(to right, #edf1f7, #fff);
+}
+.developer-section{
+    padding: 48px;
+}
+.development-text{
+    padding: 45px 38px 20px 38px;
+    margin-bottom: 20px;
+    
+}
+
+
+.developer-img{
+    width: 160px;
+    height: 160px;
+}
+
+.developer-btn{
+    margin-top: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 98px;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 98px;
+}
