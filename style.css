@@ -10,9 +10,15 @@ body{
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
     margin-bottom: 70px;
+    margin: 0 auto;
 }
 
 main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
     margin: 40px 130px;
 }
 
@@ -127,6 +133,7 @@ button{
 }
 .developer-section-2{
     background-image: linear-gradient(to right, #edf1f7, #fff);
+    padding-left: 30px;
 }
 .developer-section{
     padding: 48px;
@@ -161,7 +168,36 @@ button{
 .grid-2{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 80px;
+    /* gap: 10px; */
+}
+
+/* Inspiration Styles */
+
+.inspiration-section{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.inspiration-text{
+    padding: 0 100px 30px 100px;
+}
+
+.inspiration-video{
+    /* margin-top: 30px; */
+    height: 420px;
+    border: 1px solid #8f97a5;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+iframe{
+    border: 1px solid #8f97a5;
+    border-radius: 12px;
+    border: none;
+    /* padding: 20px; */
+    width: 100%;
+    /* height: 100%; */
+    height: 100%;
 }
 
 
