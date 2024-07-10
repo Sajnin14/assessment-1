@@ -282,6 +282,7 @@ iframe{
     font-size: 10px;
     width: 280px;
     border-radius: 6px;
+    border: none;
 }
 
 .support-submit{
@@ -290,6 +291,7 @@ iframe{
     font-weight: bold;
     background-color: #fff;
     color: #0D1321;
+    border: none;
 }
 
 /* footer section */
