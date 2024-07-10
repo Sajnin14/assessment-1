@@ -42,6 +42,7 @@ button{
     background-color: #fff;
     border-radius: 6px;
     font-weight: 500;
+    cursor: pointer;
     
 }
 
@@ -102,6 +103,7 @@ button{
 .head-btn{
     color: #fff;
     background-color: #0D1321;
+    border: none;
 }
 
 
@@ -145,14 +147,21 @@ button{
     margin-top: 20px;
 }
 
+.developer-btn button{
+    border-radius: 0;
+    border: 1px solid #8f97a5;
+}
+
 .grid{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 98px;
+    gap: 70px;
 }
 
 .grid-2{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 98px;
+    gap: 80px;
 }
+
+
